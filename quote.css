@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Orbitron&family=Poppins:wght@100&display=swap');
+body{
+background:#c6e6e6;
+}
+.container{
+border:14px inset gray;
+height:504px;
+width:950px;
+display:flex;
+margin-left:20%;
+margin-top:04%;
+display:flex;
+justify-content: center;
+    flex-direction: row-reverse;
+}
+@media (min-width: 600px) and (max-width: 1279px) {
+.container{
+border:14px inset gray;
+height:704px;
+width:900px;
+display:table-cell;
+margin-left:0.5%;
+margin-top:04%;
+display:flex;
+justify-content: center;
+    flex-direction: row-reverse;
+}
+
+}
+
+
+.quotes{
+width:800px;
+height:500px;
+margin:auto;
+    flex-direction: column;
+justify-content:center;
+align-items:center;
+background-color:pink;
+border:2px solid white;
+}
+.quotes p{
+font-size:44px;
+font-weight:bold;
+text-align:center;
+margin-top:15%;
+font-family:lora;
+}
+.quotes h3{
+font-size:24px;
+text-align:center;
+
+
+}
+.hit{
+font-family:arial sans-serif;
+font-size:32px;
+margin-top:2%;
+background-color:black;
+color:white;
+box-shadow:6px 6px gray;
+}
+
